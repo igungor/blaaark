@@ -10,7 +10,7 @@ Functions are out.
 Constants, strings, special and statements are in.
 
 Will *not* support 3rd party syntax files unless the default vim files
-are subpar or broken. Those tweaks go into your .vimrc. not into your
+are subpar or broken. Those tweaks go into your .vimrc, not into your
 colorscheme.  
 
 You know the drill.
