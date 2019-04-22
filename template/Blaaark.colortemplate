@@ -30,12 +30,12 @@ Color: white                #dddddd     ~
 Color: brightwhite          #ffffff     ~   
 
 Color: red                  #d13a6f     ~   
-Color: green                #60aa00     ~   
+Color: green                #11c98e     ~   
 Color: yellow               #d08928     ~   
 Color: blue                 #57aadd     ~   
-Color: purple               #b77fdb     ~   
+Color: purple               #a76fcb     ~   
 Color: greyblue             #5e90b7     ~   
-Color: teal                 #11c98e     ~   
+Color: teal                 #20aabb     ~   
 
 Color: diffred              #cc4040     ~   
 Color: diffgreen            #40bb40     ~   
@@ -127,7 +127,7 @@ Boolean           -> Constant
 Character         -> Constant
 Comment              brightblack       none              t=italic g=italic
 Conditional       -> Statement
-Constant             teal             none
+Constant             green             none
 Define            -> PreProc
 Debug             -> Special
 Delimiter         -> Special
@@ -181,8 +181,8 @@ markdownListMarker   purple         none        t=bold g=bold
 markdownLinkText     blue           none
 markdownUrl          greyblack      none
 markdownRule	     red none t=bold g=bold
-markdownId	teal none
-markdownIdDeclaration	teal none
+markdownId	green none
+markdownIdDeclaration	green none
 markdownBold	white none t=bold g=bold
 markdownItalic	white none t=italic g=italic
 markdownBoldItalic white none t=bold,italic g=bold,italic
@@ -196,27 +196,33 @@ rstStrongEmphasis    white           none        t=bold g=bold
 rstInterpretedTextOrHyperlinkReference purple none
 rstStandAloneHyperlink blue none
 rstHyperlinktarget blue none
-rstCitationReference teal none
+rstCitationReference green none
+
+diffFile greyblue none
+diffAdded green none
+diffRemoved red none
+diffLine purple none
+
 # }}}
 
 # Terminal colors {{{
 verbatim
 let g:terminal_ansi_colors = [
     \ '#1b1d1e',
-    \ '#d01b61',
-    \ '#60aa00',
+    \ '#d13a6f',
+    \ '#11c98e',
     \ '#d08928',
-    \ '#6c9ef8',
-    \ '#b77fdb',
-    \ '#00aa80',
+    \ '#5e90b7',
+    \ '#a76fcb',
+    \ '#20aabb',
     \ '#dddddd',
-    \ '#808080',
-    \ '#d01b61',
-    \ '#60aa00',
+    \ '#606060',
+    \ '#d13a6f',
+    \ '#11c98e',
     \ '#d08928',
-    \ '#6c9ef8',
-    \ '#b77fdb',
-    \ '#00aa80',
+    \ '#5e90b7',
+    \ '#a76fcb',
+    \ '#20aabb',
     \ '#ffffff'
 \ ]
 endverbatim
