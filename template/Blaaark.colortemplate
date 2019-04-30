@@ -24,7 +24,7 @@ Background: dark
 # Color name                GUI         Base256    Base16 (optional)
 Color: black                #1b1d1e     ~   
 Color: greyblack            #505050     ~   
-Color: brightblack          #606060     ~   
+Color: brightblack          #707070     ~   
 
 Color: white                #dddddd     ~   
 Color: brightwhite          #ffffff     ~   
