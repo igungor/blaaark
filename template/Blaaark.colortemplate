@@ -201,7 +201,7 @@ rstHyperlinktarget   monoblue          none
 rstCitationReference teal              none
 
 diffFile             greyblue          none
-diffAdded            teal              none
+diffAdded            green             none
 diffRemoved          red               none
 diffLine             purple            none
 # }}}
