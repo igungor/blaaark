@@ -1,4 +1,4 @@
-![image](https://i.imgur.com/KrcPPxF.png)
+![image](https://i.imgur.com/toBCzor.png)
 
 **Blaaark** : Control Flow Edition.
 
