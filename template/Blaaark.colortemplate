@@ -48,6 +48,9 @@ Tag                  -> Special
 Typedef              -> Type
 # See `:help lCursor`
 lCursor              -> Cursor
+# Custom
+debugBreakpoint      -> Statement
+debugPC              -> CursorLine
 # }}}
 
 Background: dark
