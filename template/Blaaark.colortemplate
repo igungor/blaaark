@@ -49,7 +49,7 @@ Typedef              -> Type
 # See `:help lCursor`
 lCursor              -> Cursor
 # Custom
-debugBreakpoint      -> Statement
+debugBreakpoint      -> ModeMsg
 debugPC              -> CursorLine
 # }}}
 
@@ -77,6 +77,7 @@ Color: teal                 #20aabb                ~
 Color: diffred              #cc4040                ~          
 Color: diffgreen            #40bb40                ~          
 Color: diffblue             #80aacc                ~          
+Color: diffpink 	          #d496d7                ~
                                                                 
 Color: uipink               #fc20bb                ~          
 Color: uilime               #bbfc20                ~          
@@ -119,7 +120,7 @@ CursorLineNr         uiblue            black
 DiffAdd              diffgreen         black             reverse
 DiffChange           diffblue          black             reverse
 DiffDelete           diffred           black             reverse
-DiffText             white             black             reverse
+DiffText             diffpink          black             reverse
 Directory            white             black
 EndOfBuffer          white             black
 ErrorMsg             white             black             reverse
@@ -131,9 +132,9 @@ MatchParen           uipink            black             bold
 ModeMsg              white             black             bold
 MoreMsg              white             black
 NonText              white             black
-Pmenu                white             uiblack
+Pmenu                black             diffblue
 PmenuSbar            white             black
-PmenuSel             uipink            uiblack           bold
+PmenuSel             black             diffpink
 PmenuThumb           white             black
 Question             white             black
 Search               uiblue            black             reverse

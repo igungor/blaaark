@@ -1,4 +1,4 @@
-*Blaaark.txt*	For Vim version 8.1	Last change: 2019 Oct 08
+*Blaaark.txt*	For Vim version 8.1	Last change: 2019 Oct 21
 
 
 		  Blaaark color scheme    by neutaaaaan
