@@ -217,15 +217,15 @@ if s:t_Co >= 256
   hi VisualNOS ctermfg=NONE ctermbg=236 cterm=NONE
   hi WarningMsg ctermfg=253 ctermbg=234 cterm=NONE
   hi WildMenu ctermfg=39 ctermbg=236 cterm=NONE
-  hi Comment ctermfg=242 ctermbg=NONE cterm=italic
-  hi Constant ctermfg=42 ctermbg=NONE cterm=NONE
+  hi Comment ctermfg=42 ctermbg=NONE cterm=italic
+  hi Constant ctermfg=253 ctermbg=NONE cterm=NONE
   hi Error ctermfg=197 ctermbg=234 cterm=bold,reverse
   hi Identifier ctermfg=253 ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=253 ctermbg=NONE cterm=NONE
   hi PreProc ctermfg=253 ctermbg=NONE cterm=NONE
   hi Special ctermfg=161 ctermbg=NONE cterm=NONE
   hi Statement ctermfg=253 ctermbg=NONE cterm=bold
-  hi String ctermfg=67 ctermbg=NONE cterm=NONE
+  hi String ctermfg=253 ctermbg=NONE cterm=NONE
   hi Todo ctermfg=49 ctermbg=NONE cterm=bold,reverse
   hi Type ctermfg=253 ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=253 ctermbg=NONE cterm=underline
