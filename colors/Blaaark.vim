@@ -189,7 +189,7 @@ if s:t_Co >= 256
   hi FoldColumn ctermfg=253 ctermbg=233 cterm=NONE
   hi Folded ctermfg=253 ctermbg=234 cterm=italic
   hi IncSearch ctermfg=214 ctermbg=234 cterm=reverse
-  hi LineNr ctermfg=238 ctermbg=234 cterm=NONE
+  hi LineNr ctermfg=245 ctermbg=234 cterm=NONE
   hi MatchParen ctermfg=199 ctermbg=234 cterm=bold
   hi ModeMsg ctermfg=253 ctermbg=234 cterm=bold
   hi MoreMsg ctermfg=253 ctermbg=234 cterm=NONE
