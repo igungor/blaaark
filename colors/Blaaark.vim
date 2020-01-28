@@ -105,15 +105,15 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi VisualNOS guifg=NONE guibg=#303030 guisp=NONE gui=NONE cterm=NONE
   hi WarningMsg guifg=#dddddd guibg=#1b1d1e guisp=NONE gui=NONE cterm=NONE
   hi WildMenu guifg=#20bbfc guibg=#303030 guisp=NONE gui=NONE cterm=NONE
-  hi Comment guifg=#707070 guibg=NONE guisp=NONE gui=italic cterm=italic
+  hi Comment guifg=#11c98e guibg=NONE guisp=NONE gui=italic cterm=italic
   hi Constant guifg=#11c98e guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Error guifg=#ff2040 guibg=#1b1d1e guisp=NONE gui=bold,reverse cterm=bold,reverse
   hi Identifier guifg=#dddddd guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Ignore guifg=#dddddd guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#dddddd guibg=NONE guisp=NONE gui=NONE cterm=NONE
-  hi Special guifg=#d13a6f guibg=NONE guisp=NONE gui=NONE cterm=NONE
+  hi Special guifg=#dddddd guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Statement guifg=#dddddd guibg=NONE guisp=NONE gui=bold cterm=bold
-  hi String guifg=#5e90b7 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+  hi String guifg=#dddddd guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Todo guifg=#20fcbb guibg=NONE guisp=NONE gui=bold,reverse cterm=bold,reverse
   hi Type guifg=#dddddd guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Underlined guifg=#dddddd guibg=NONE guisp=NONE gui=underline cterm=underline
